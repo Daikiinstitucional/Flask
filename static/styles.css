@@ -148,8 +148,25 @@ button:hover {
 button:hover::before {
  width: 100%;
 }
-  
- img{
-  border-radius:25px; 
-  margin-bottom:2em;
-  }
+
+img{
+  width: 10em;
+  height:auto;
+  border-radius: 50px;
+}
+
+.proj p{
+  margin-top:2.5em;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+span p{
+  color:black;
+  font-size:15px;
+  margin-top:0px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
