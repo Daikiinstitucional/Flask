@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Permanent+Marker&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: black;
+}
+
+html ::-webkit-scrollbar-track {
+  background: #ededed;
+}
+
+
 html, body{
   overflow-x:hidden;
 }
@@ -155,18 +169,22 @@ img{
   border-radius: 50px;
 }
 
-.proj p{
-  margin-top:2.5em;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 
-span p{
+h5{
   color:black;
   font-size:15px;
   margin-top:0px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
+  text-align:justify;
+}
+
+.desc{
+  margin-top: 2em;
+
+  text-align: justify;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
